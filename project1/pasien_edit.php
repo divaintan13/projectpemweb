@@ -16,7 +16,6 @@ include_once('menu.php');
 
         <form action="pasien_update.php" method="post">
             <input type="hidden" name="id" value="<?= $pasien['id'] ?>">
-
             <div class="form-group row">
                 <label for="nama" class="col-4 col-form-label">Nama</label>
                 <div class="col-8">

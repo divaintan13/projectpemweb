@@ -39,7 +39,7 @@ include_once('menu.php');
             <div class="form-group row">
                 <label for="tgl_lahir" class="col-4 col-form-label">Tanggal Lahir</label>
                 <div class="col-8">
-                    <input id="tgl_lahir" name="tgl_lahir" type="text" class="form-control" required="required">
+                    <input id="tgl_lahir" name="tgl_lahir" type="date" class="form-control" required="required">
                 </div>
             </div>
             <div class="form-group row">
